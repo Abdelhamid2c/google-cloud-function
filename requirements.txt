@@ -1,0 +1,5 @@
+tensorflow==2.10
+google-cloud-storage==1.16.1
+Pillow==6.0.0
+pymongo
+
