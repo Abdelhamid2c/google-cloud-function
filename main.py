@@ -84,8 +84,9 @@ def download_blob(bucket_name, source_blob_name, destination_file_name):
 
     print(f"Blob {source_blob_name} downloaded to {destination_file_name}.")
 
+
 def dbConnection():
-    return pymongo.MongoClient("mongodb+srv://mohamedelaidi41:M36O6w9H00rdfdGL@cluster0.z7kvbwn.mongodb.net/")
+    return pymongo.MongoClient(url_mongo)
 
 def mongo_data_pathogen():
     client = dbConnection()
